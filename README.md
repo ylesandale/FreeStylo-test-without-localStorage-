@@ -1,11 +1,12 @@
-Тестовое задание для https://freestylo.ru/ : https://www.notion.so/sizo/Test-task-junior-front-a09eeb5e9a604d78a1cb9dbf27277b2c
+[Тестовое задание](https://www.notion.so/sizo/Test-task-junior-front-a09eeb5e9a604d78a1cb9dbf27277b2c) для [FreeStylo](https://freestylo.ru/)
 
+Версия без localStorage(после перезагрузки данные пропадут)
 
-**Чтобы начать:**
+[Полноценная версия с сохранением данных](https://github.com/ylesandale/FreeStylo-test)
 
-- Клонируй репозиторий к себе на компьютер
-- Установи все зависимости: npm install
-- Запусти локальный сервер: npm run dev
+**Live Demo:**
+
+https://free-stylo-test-without-local-storage.vercel.app/
 
 **Stack:**
 
@@ -15,3 +16,9 @@
 - Scss
 - ClassNames
 - axios
+
+**Функционал:**
+
+- Взаимодействует с twitch.api и отображает видео заданного канала 
+- При наведении появляется название видео и иконка для добавления в избранное
+- Отдельная вкладка с избранным видео(после перезагрузки данные пропадут)
